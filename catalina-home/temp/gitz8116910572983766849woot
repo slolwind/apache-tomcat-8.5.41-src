@@ -1,0 +1,67 @@
+<group>
+  <name>work-items-editor-settings</name>
+  <description></description>
+  <type>EDITOR</type>
+  <enabled>true</enabled>
+  <items class="concurrent-hash-map">
+    <entry>
+      <string>CustomEditor</string>
+      <item>
+        <name>CustomEditor</name>
+        <value class="string">&quot;customEditor&quot; : &quot;true&quot;</value>
+      </item>
+    </entry>
+    <entry>
+      <string>Definition</string>
+      <item>
+        <name>Definition</name>
+        <value class="string">[
+  [
+    &quot;name&quot; : &quot;MyTask&quot;, 
+    &quot;parameters&quot; : [ 
+        &quot;MyFirstParam&quot; : new StringDataType(), 
+        &quot;MySecondParam&quot; : new StringDataType(), 
+        &quot;MyThirdParam&quot; : new ObjectDataType() 
+    ], 
+    &quot;results&quot; : [ 
+        &quot;Result&quot; : new ObjectDataType(&quot;java.util.Map&quot;) 
+    ], 
+    &quot;displayName&quot; : &quot;My Task&quot;, 
+    &quot;icon&quot; : &quot;&quot; 
+  ]
+]</value>
+      </item>
+    </entry>
+    <entry>
+      <string>DisplayName</string>
+      <item>
+        <name>DisplayName</name>
+        <value class="string">&quot;displayName&quot; : &quot;My Task&quot;</value>
+      </item>
+    </entry>
+    <entry>
+      <string>Parameter</string>
+      <item>
+        <name>Parameter</name>
+        <value class="string">&quot;MyParam&quot; : new StringDataType()</value>
+      </item>
+    </entry>
+    <entry>
+      <string>ParameterValues</string>
+      <item>
+        <name>ParameterValues</name>
+        <value class="string">&quot;parameterValues&quot; : [
+   &quot;MyFirstParam&quot; : &quot;A,B,C&quot;,   
+   &quot;MySecondParam&quot; : &quot;X,Y,Z&quot;
+]</value>
+      </item>
+    </entry>
+    <entry>
+      <string>Result</string>
+      <item>
+        <name>Result</name>
+        <value class="string">&quot;Result&quot; : new ObjectDataType()</value>
+      </item>
+    </entry>
+  </items>
+</group>

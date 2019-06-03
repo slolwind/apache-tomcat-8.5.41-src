@@ -1,0 +1,30 @@
+<group>
+  <name>example-Employee_Rostering</name>
+  <description></description>
+  <type>REPOSITORY</type>
+  <namespace>MySpace</namespace>
+  <enabled>true</enabled>
+  <items class="concurrent-hash-map">
+    <entry>
+      <string>security:groups</string>
+      <item>
+        <name>security:groups</name>
+        <value class="list"/>
+      </item>
+    </entry>
+    <entry>
+      <string>scheme</string>
+      <item>
+        <name>scheme</name>
+        <value class="string">git</value>
+      </item>
+    </entry>
+    <entry>
+      <string>space</string>
+      <item>
+        <name>space</name>
+        <value class="string">MySpace</value>
+      </item>
+    </entry>
+  </items>
+</group>

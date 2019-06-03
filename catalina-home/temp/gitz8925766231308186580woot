@@ -1,0 +1,205 @@
+<org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>
+  <lastPackage>
+    <repository class="org.guvnor.structure.repositories.impl.git.GitRepository">
+      <environment>
+        <entry>
+          <string>security:groups</string>
+          <list/>
+        </entry>
+        <entry>
+          <string>scheme</string>
+          <string>git</string>
+        </entry>
+        <entry>
+          <string>space</string>
+          <string>MySpace</string>
+        </entry>
+      </environment>
+      <publicURIs>
+        <org.guvnor.structure.repositories.impl.DefaultPublicURI>
+          <protocol>git</protocol>
+          <uri>git://localhost:9418/MySpace/example-Employee_Rostering</uri>
+        </org.guvnor.structure.repositories.impl.DefaultPublicURI>
+        <org.guvnor.structure.repositories.impl.DefaultPublicURI>
+          <protocol>ssh</protocol>
+          <uri>ssh://localhost:8001/MySpace/example-Employee_Rostering</uri>
+        </org.guvnor.structure.repositories.impl.DefaultPublicURI>
+      </publicURIs>
+      <branches>
+        <entry>
+          <string>master</string>
+          <org.guvnor.structure.repositories.Branch>
+            <name>master</name>
+            <path class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+              <uri>default://master@MySpace/example-Employee_Rostering/</uri>
+              <fileName>/</fileName>
+              <attributes/>
+              <hasVersionSupport>true</hasVersionSupport>
+            </path>
+          </org.guvnor.structure.repositories.Branch>
+        </entry>
+      </branches>
+      <alias>example-Employee_Rostering</alias>
+      <space>
+        <name>MySpace</name>
+      </space>
+      <groups class="list"/>
+      <requiresRefresh>true</requiresRefresh>
+    </repository>
+    <branch>master</branch>
+    <module class="org.kie.workbench.common.services.shared.project.KieModule">
+      <rootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/</uri>
+        <fileName>/</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </rootPath>
+      <pomXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/pom.xml</uri>
+        <fileName>pom.xml</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </pomXMLPath>
+      <modules class="list"/>
+      <pom>
+        <gav>
+          <groupId>employeerostering</groupId>
+          <artifactId>employeerostering</artifactId>
+          <version>1.0.0-SNAPSHOT</version>
+        </gav>
+        <name>Employee_Rostering</name>
+        <description>Employee rostering problem optimisation using Planner. Assigns employees to shifts based on their skill.</description>
+        <packaging>kjar</packaging>
+        <build>
+          <plugins>
+            <org.guvnor.common.services.project.model.Plugin>
+              <dependencies/>
+              <groupId>org.kie</groupId>
+              <artifactId>kie-maven-plugin</artifactId>
+              <version>7.11.0.Final</version>
+              <extensions>true</extensions>
+            </org.guvnor.common.services.project.model.Plugin>
+          </plugins>
+        </build>
+        <dependencies>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-api</artifactId>
+            <version>7.11.0.Final</version>
+            <scope>provided</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-internal</artifactId>
+            <version>7.11.0.Final</version>
+            <scope>provided</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>org.optaplanner</groupId>
+            <artifactId>optaplanner-core</artifactId>
+            <version>7.11.0.Final</version>
+            <scope>provided</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>org.optaplanner</groupId>
+            <artifactId>optaplanner-persistence-jaxb</artifactId>
+            <version>7.11.0.Final</version>
+            <scope>provided</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+          <org.guvnor.common.services.project.model.Dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.10</version>
+            <scope>test</scope>
+          </org.guvnor.common.services.project.model.Dependency>
+        </dependencies>
+        <repositories/>
+        <modules/>
+      </pom>
+      <numberOfAssets>15</numberOfAssets>
+      <kmoduleXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/src/main/resources/META-INF/kmodule.xml</uri>
+        <fileName>kmodule.xml</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </kmoduleXMLPath>
+      <importsPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/project.imports</uri>
+        <fileName>project.imports</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </importsPath>
+      <repositoriesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/project.repositories</uri>
+        <fileName>project.repositories</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </repositoriesPath>
+      <packageNamesWhiteListPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/package-names-white-list</uri>
+        <fileName>package-names-white-list</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageNamesWhiteListPath>
+    </module>
+    <pkg>
+      <moduleRootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/</uri>
+        <fileName>/</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </moduleRootPath>
+      <packageMainSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/src/main/java/employeerostering/employeerostering</uri>
+        <fileName>employeerostering</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageMainSrcPath>
+      <packageTestSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/src/test/java/employeerostering/employeerostering</uri>
+        <fileName>employeerostering</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageTestSrcPath>
+      <packageMainResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/src/main/resources/employeerostering/employeerostering</uri>
+        <fileName>employeerostering</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageMainResourcesPath>
+      <packageTestResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@MySpace/example-Employee_Rostering/src/test/resources/employeerostering/employeerostering</uri>
+        <fileName>employeerostering</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageTestResourcesPath>
+      <packageName>employeerostering.employeerostering</packageName>
+      <caption>employeerostering.employeerostering</caption>
+      <relativeCaption>Skill.java</relativeCaption>
+    </pkg>
+  </lastPackage>
+  <lastFolderItem>
+    <repository class="org.guvnor.structure.repositories.impl.git.GitRepository" reference="../../lastPackage/repository"/>
+    <branch>master</branch>
+    <module class="org.kie.workbench.common.services.shared.project.KieModule" reference="../../lastPackage/module"/>
+    <item>
+      <item class="org.guvnor.common.services.project.model.Package" reference="../../../lastPackage/pkg"/>
+      <itemName>Skill.java</itemName>
+      <type>FOLDER</type>
+      <lockedItems>false</lockedItems>
+      <tags/>
+      <restrictedOperations/>
+    </item>
+  </lastFolderItem>
+  <options>
+    <org.kie.workbench.common.screens.explorer.service.Option>BUSINESS_CONTENT</org.kie.workbench.common.screens.explorer.service.Option>
+    <org.kie.workbench.common.screens.explorer.service.Option>BREADCRUMB_NAVIGATOR</org.kie.workbench.common.screens.explorer.service.Option>
+    <org.kie.workbench.common.screens.explorer.service.Option>EXCLUDE_HIDDEN_ITEMS</org.kie.workbench.common.screens.explorer.service.Option>
+  </options>
+</org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>

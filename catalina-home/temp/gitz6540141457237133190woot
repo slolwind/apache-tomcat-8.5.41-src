@@ -1,0 +1,13 @@
+package employeerostering.employeerostering;
+
+import java.lang.Number;
+
+rule "BalanceEmployeesShiftNumber"
+	dialect "mvel"
+	when
+		$employee : Employee( )
+		$shiftCount : Number( ) from accumulate ( $shiftAssignment : ShiftAssignment( employee != $employee ),
+			count($shiftAssignment)) 
+	then
+		scoreHolder.addSoftConstraintMatch(kcontext, - ($shiftCount.intValue() * $shiftCount.intValue()));
+end

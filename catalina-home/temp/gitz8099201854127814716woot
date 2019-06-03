@@ -1,0 +1,45 @@
+<group>
+  <name>MySpace</name>
+  <description></description>
+  <type>SPACE</type>
+  <enabled>true</enabled>
+  <items class="concurrent-hash-map">
+    <entry>
+      <string>owner</string>
+      <item>
+        <name>owner</name>
+        <value class="string">admin</value>
+      </item>
+    </entry>
+    <entry>
+      <string>security:groups</string>
+      <item>
+        <name>security:groups</name>
+        <value class="list"/>
+      </item>
+    </entry>
+    <entry>
+      <string>repositories</string>
+      <item>
+        <name>repositories</name>
+        <value class="list"/>
+      </item>
+    </entry>
+    <entry>
+      <string>defaultGroupId</string>
+      <item>
+        <name>defaultGroupId</name>
+        <value class="string">com.myspace</value>
+      </item>
+    </entry>
+    <entry>
+      <string>contributors</string>
+      <item>
+        <name>contributors</name>
+        <value class="list">
+          <string>admin</string>
+        </value>
+      </item>
+    </entry>
+  </items>
+</group>

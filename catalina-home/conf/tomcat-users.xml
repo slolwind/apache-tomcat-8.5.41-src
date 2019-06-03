@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+  <role rolename="admin"/>
+  <role rolename="analyst"/>
+  <role rolename="HR"/>
+  <role rolename="kie-server"/>
+  <role rolename="PM"/>
+  <role rolename="user"/>
+  <role rolename="manager-gui"/>
+  <user username="kieserver" password="admin" roles="admin,kie-server,manager-gui"/>
+  <user username="admin" password="admin" roles="admin,PM,HR,analyst,kie-server,manager-gui"/>
+  <user username="analyst" password="analyst" roles="analyst"/>
+</tomcat-users>

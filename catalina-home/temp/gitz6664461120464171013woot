@@ -1,0 +1,38 @@
+{
+  "uuid": "gitContributors",
+  "name": "GIT Contributors",
+  "provider": "BEAN",
+  "isPublic": false,
+  "cacheEnabled": false,
+  "cacheMaxRows": 1000,
+  "pushEnabled": false,
+  "pushMaxSize": 1024,
+  "refreshAlways": false,
+  "generatorClass": "org.kie.workbench.common.screens.contributors.backend.dataset.ContributorsManager",
+  "columns": [
+    {
+      "id": "organization",
+      "type": "label"
+    },
+    {
+      "id": "repository",
+      "type": "label"
+    },
+    {
+      "id": "project",
+      "type": "label"
+    },
+    {
+      "id": "author",
+      "type": "label"
+    },
+    {
+      "id": "message",
+      "type": "text"
+    },
+    {
+      "id": "date",
+      "type": "date"
+    }
+  ]
+}

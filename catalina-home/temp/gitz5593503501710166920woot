@@ -1,0 +1,43 @@
+<org.kie.server.controller.api.model.spec.ServerTemplate>
+  <id>aaaa</id>
+  <name>aaaa</name>
+  <containersSpec class="list">
+    <org.kie.server.controller.api.model.spec.ContainerSpec>
+      <id>test</id>
+      <containerName>test</containerName>
+      <serverTemplateKey>
+        <id>aaaa</id>
+      </serverTemplateKey>
+      <releasedId>
+        <groupId>testg</groupId>
+        <artifactId>testId</artifactId>
+        <version>v1</version>
+      </releasedId>
+      <configs>
+        <entry>
+          <org.kie.server.controller.api.model.spec.Capability>RULE</org.kie.server.controller.api.model.spec.Capability>
+          <org.kie.server.controller.api.model.spec.RuleConfig>
+            <scannerStatus>STOPPED</scannerStatus>
+          </org.kie.server.controller.api.model.spec.RuleConfig>
+        </entry>
+        <entry>
+          <org.kie.server.controller.api.model.spec.Capability>PROCESS</org.kie.server.controller.api.model.spec.Capability>
+          <org.kie.server.controller.api.model.spec.ProcessConfig>
+            <runtimeStrategy>SINGLETON</runtimeStrategy>
+            <kBase></kBase>
+            <kSession></kSession>
+            <mergeMode>MERGE_COLLECTIONS</mergeMode>
+          </org.kie.server.controller.api.model.spec.ProcessConfig>
+        </entry>
+      </configs>
+      <status>STARTED</status>
+    </org.kie.server.controller.api.model.spec.ContainerSpec>
+  </containersSpec>
+  <configs/>
+  <serverInstances class="list"/>
+  <capabilities>
+    <string>PROCESS</string>
+    <string>RULE</string>
+    <string>PLANNING</string>
+  </capabilities>
+</org.kie.server.controller.api.model.spec.ServerTemplate>

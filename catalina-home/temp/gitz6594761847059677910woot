@@ -1,0 +1,8 @@
+{
+  "groupId": "org.postgresql",
+  "artifactId": "postgresql",
+  "version": "9.4.1207",
+  "driverClass": "org.postgresql.Driver",
+  "uuid": "postgresql-9.4.1207",
+  "name": "PostgreSQL-9.4.1207"
+}
